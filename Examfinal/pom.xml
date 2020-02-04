@@ -12,10 +12,9 @@
 		<maven.compiler.target>1.8</maven.compiler.target>
 
 	</properties>
-  
-  <dependencies>
-  
-  <!-- https://mvnrepository.com/artifact/info.cukes/cucumber-testng -->
+
+	<dependencies>
+		<!-- https://mvnrepository.com/artifact/info.cukes/cucumber-testng -->
 		<dependency>
 			<groupId>info.cukes</groupId>
 			<artifactId>cucumber-junit</artifactId>
@@ -40,7 +39,10 @@
 			<version>3.141.59</version>
 		</dependency>
 
-  <build>
+
+
+	</dependencies>
+	<build>
 
 		<plugins>
 
@@ -85,13 +87,5 @@
 		</plugins>
 
 	</build>
-  
-  
-  
-  
-  
-  </dependencies>
-  
-  
   
 </project>
