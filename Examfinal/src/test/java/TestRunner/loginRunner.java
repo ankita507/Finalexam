@@ -8,7 +8,7 @@ import cucumber.api.junit.Cucumber;
 @RunWith(Cucumber.class)
 @CucumberOptions(
 			features="Featurefile"
-			,glue= {"stepDefination"},plugin= {"pretty","json:target/cucumber.json"}
+			,glue= {"stepDefination"}, plugin= {"pretty","json:target/cucumber.json"}
 		
 		)
 

@@ -39,12 +39,13 @@ public class logintest {
  		List<String> cred = dt.asList(String.class);
  		driver.findElement(By.name("userName")).sendKeys(cred.get(0));
  		driver.findElement(By.name("password")).sendKeys(cred.get(1));	
- 		driver.findElement(By.xpath("/html/body/main/div/div/div/form/fieldset/div[4]/div/input[1]")).click();
+ 		
  	}
      @Then("^click on login$")
      public void userclickonloginbutton()
      {
     	 driver.findElement(By.name("Login")).click();
+    	 System.out.println("user successfully login");
      }
 	
 	

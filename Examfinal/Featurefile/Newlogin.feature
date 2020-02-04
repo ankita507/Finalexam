@@ -1,4 +1,5 @@
 Feature: Login Functionality
+@data-driven
 Scenario: Login to TestMeApp  and Report show on Jenkins
 		
 		Given user open TestMeApp
